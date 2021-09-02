@@ -120,7 +120,7 @@ color: #000000;
   border-radius: 4px;
   font-size: 20px;
 }
-.icon li a .fab, .far,.fas{
+.icon li a .fab, .far,.fas,{
   font-size: 50px;
 }
 .buscador{
@@ -463,9 +463,19 @@ display: block;
   text-decoration: none;
   border-radius: 4px;
 }
+.footer-links1 li a .fa{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
 
-
-.footer-links1 li a .fab, .far,.fas{
+.footer-links1 li a .fab, .far,.fas,.fa{
   font-size: 20px;
 }
 

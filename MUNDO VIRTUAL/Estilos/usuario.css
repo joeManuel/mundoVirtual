@@ -1,0 +1,56 @@
+body {
+  font-family:  sans-serif;
+}
+.margen{
+  margin-top: 60px;
+}
+.containers-pro{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+    margin: auto;
+    padding: 0px;
+    margin-top: 80px;
+}
+.credit{
+  margin-right: 50px;
+}
+.credit .fa{
+  display: inline;
+  color: #008080;
+  font-size: 60px;
+}
+
+.escu{
+margin-top: 70px;
+  padding: 2px 3px;
+  background-color: #F7F7F7;
+  border: inset;
+  border-width: thin;
+
+  border-radius: 2%;
+  width: 270px;
+  height: 100px;
+
+}
+.escu a{
+  color: #000000;
+  height: 60px;
+}
+
+.escu .fas{
+  display: inline;
+  color: #008080;
+  font-size: 60px;
+}
+.escu a:hover{
+  cursor: pointer;
+  color: #008080;
+  background-color: inherit;
+
+}
+.escu p{
+  display: inline-block;
+}
