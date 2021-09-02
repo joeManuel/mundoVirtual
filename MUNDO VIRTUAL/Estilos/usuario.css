@@ -12,7 +12,7 @@ body {
   width: 100%;
     margin: auto;
     padding: 0px;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 .credit{
   margin-right: 50px;
@@ -53,4 +53,83 @@ margin-top: 70px;
 }
 .escu p{
   display: inline-block;
+}
+/*edit*/
+
+ .form-input{
+   display: inline;
+   outline: none;
+   padding:15px 20px;
+   width: 300px;
+   border-radius: 3px;
+   border:  1px solid #B5B5B5;
+
+   height: 6px;
+ }
+.submit {
+  display: block;
+  padding: 10px 9px;
+  color: #fff;
+  background: #0098cb;
+  width: 240px;
+  margin-top: 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: #00b8eb;
+}
+.form{
+  margin-right: 200px;
+  width: 350px;
+  display:flex;
+  flex-direction: column;
+}
+.form-label{
+  outline: none;
+  display: block;
+  padding: 2px;
+  width: 100px;
+  border-radius: 3px;
+  border:  1px solid #B5B5B5;
+}
+.form-label1{
+  outline: none;
+  display: block;
+  width: 120px;
+  border-radius: 3px;
+  border: 1px solid #B5B5B5;
+}
+.spc{
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.line{
+  text-align: center;
+}
+/* pedidos*/
+.bordes{
+    margin-right: 130px;
+  width: 400px;
+}
+.bordes div{
+
+  margin-top: 10px;
+  display: inline-block;
+  padding: 0px 2px;
+  width: 350px;
+  border-radius: 3px;
+  border: 1px solid #B5B5B5;
+}
+.bordes h3{
+
+}
+.bordes a{
+  margin-right: 5px;
+  display: inline-block;
+  float: right;
 }
