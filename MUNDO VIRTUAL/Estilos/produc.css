@@ -1,0 +1,73 @@
+body {
+  font-family:  sans-serif;
+}
+h5{
+  font-weight:  normal;
+  margin: 10px 0px;
+}
+.color{
+  color: #FF0000;
+}
+.cuadri input[type="submit"] {
+  background-color: #FFD200;
+  margin: 20px auto;
+
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.bord{
+  background-color: #ffe8cd;
+  border: inset;
+  border-color: #EF7F1A;
+  border-width: thin;
+  width: 100px;
+  padding: 2px 3px;
+}
+.produc {
+ margin: auto;
+ margin-top: 1px;
+ margin-right: 160px;
+  width: 350px;
+
+
+}
+.cuadri0-pro{
+  background-color: #F8F8F8;
+  margin: auto;
+  margin-top: 1px;
+  margin-left: 200px;
+  padding: 0px 10px;
+
+}
+.containers-pro{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+    margin: auto;
+    padding: 0px;
+    margin-top: 80px;
+}
+/* carrito*/
+.table{
+margin-left: 100px;
+text-align: center;
+}
+.table th{
+  padding: 0px 20px;
+  width: 100px;
+}
+.table td, th{
+  border-bottom: inset;
+}
+.li{
+  margin-bottom: 20px;
+  display: block;
+  margin-left:150px;
+}
+input[type="number"] {
+    margin: .4rem 0;
+    width: 40px;
+}
