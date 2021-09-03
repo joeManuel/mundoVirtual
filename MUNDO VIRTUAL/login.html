@@ -16,11 +16,24 @@
     </header>
     <main>
       <section>
-        <div class="div">
+        <div class="div" >
           <h1>iniciar sesión</h1>
-          <form action="index_usuario.html" method="post">
-            <input name="usuario" type="text" placeholder="ingresa tu usuario">
-            <input name="contraseña" type="password" placeholder="ingresa tu contraseña">
+          <form action="index_usuario.html" class="" id="formulario" >
+            <div class=""  id="grupo__usuario">
+              <div class="formulario__grupo-input">
+                <input id="novacio" name="usuario" type="text" class="name" placeholder="ingresa tu usuario">
+                <!-- <span id="name-error" aria-live="assertive"></span> -->
+                <i  class = "formulario__validacion-estado fas " >  </i>
+              </div>
+              <p class="formulario__input-error">los campos no pueden estar vacios</p>
+            </div>
+            <div class="" id="grupo__password">
+              <div class="formulario__grupo-input">
+                <input name="contraseña" type="password" placeholder="ingresa tu contraseña" id="password">
+                <i  class = "formulario__validacion-estado fas  " >  </i>
+              </div>
+              <p class="formulario__input-error">los campos no pueden estar vacios</p>
+            </div>
             <input type="submit" value="ingresa">
             <h5>¿no tienes una cuenta? <a href="registro.html">registrate</a> </h5>
           </form>
@@ -78,6 +91,7 @@
             </div>
         </div>
     </footer>
-    <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
+    <script src="script/form.js"></script>
+    <!-- <script src="http://localhost:35729/livereload.js" charset="utf-8"></script> -->
   </body>
 </html>

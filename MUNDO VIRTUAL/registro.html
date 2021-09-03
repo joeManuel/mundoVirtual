@@ -18,12 +18,48 @@
       <section>
         <div class="div2">
           <h1>registrarse</h1>
-          <form action="index_usuario.html" method="post">
-            <input name="nombre" type="text" placeholder="nombres">
-            <input name="usuario" type="text" placeholder="usuario">
-            <input name="correo" type="text" placeholder="correo electronico">
-            <input name="contraseña" type="password" placeholder="ingresa tu contraseña">
-            <input name="contraseña" type="password" placeholder="vuelve a ingresar tu contraseña">
+          <form action="index_usuario.html"  id="registro">
+            <div  id="grupo__nombre">
+              <div class="formulario__grupo-input">
+                <input name="nombre" type="text" placeholder="nombres">
+                <i  class = "formulario__validacion-estado fas  " >  </i>
+              </div>
+              <p class="formulario__input-error"> no puede tener simbolos, solo letras y espacios</p>
+            </div>
+
+            <div class="formulario_grupo" id="grupo__usuario">
+              <div class="formulario__grupo-input">
+                <input name="usuario" type="text" placeholder="usuario">
+                <i  class = "formulario__validacion-estado fas " >  </i>
+              </div>
+              <p class="formulario__input-error">solo puede tener:Letras, numeros, guion y guion_bajo
+              <br> minimo 4 digitos
+            </p>
+            </div>
+            <div class="formulario_grupo" id="grupo__correo">
+              <div class="formulario__grupo-input">
+                <input name="correo" type="email" placeholder="correo electronico">
+                <i  class = "formulario__validacion-estado fas " >  </i>
+              </div>
+              <p class="formulario__input-error">ingrese un correo válido</p>
+            </div>
+            <div class="formulario_grupo" id="grupo__password">
+              <div class="formulario__grupo-input">
+                <input name="password" type="password" id="password" placeholder="ingresa tu contraseña">
+                <i  class = "formulario__validacion-estado fas " >  </i>
+              </div>
+              <p class="formulario__input-error">minimo 4 digitos. maximo 100</p>
+            </div>
+            <div class="formulario_grupo" id="grupo__password2">
+              <div class="formulario__grupo-input">
+                <input name="password2" type="password" id="password2"placeholder="vuelve a ingresar tu contraseña">
+                <i  class = "formulario__validacion-estado fas " >  </i>
+              </div>
+              <p class="formulario__input-error">las contraseñas no coinciden</p>
+            </div>
+            <div class="formulario__mensaje" id="formulario__mensaje">
+				          <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			      </div>
             <input type="submit" value="ingresa">
             <h5>¿ya tienes una cuenta? <a href="login.html">inicia sesion</a> </h5>
           </form>
@@ -82,5 +118,8 @@
         </div>
     </footer>
     <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
+    <script src="script/registro.js">
+
+    </script>
   </body>
 </html>
