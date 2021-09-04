@@ -1,5 +1,6 @@
 body {
   font-family:  sans-serif;
+  margin: 0px;
 }
 .header{
   height: 400px;
@@ -107,12 +108,16 @@ color: #000000;
 .icon2{
     padding: 0px 20px;
 }
+.icon li:hover{
+cursor: pointer;
+background-color: transparent;
+}
 .icon li a .fas{
   width: 30px;
   height: 30px;
   color: #000000;
   display: inline-block;
-  display: flex;
+
   justify-content: center;
   align-items: center;
   margin-right: 10px;
@@ -122,6 +127,10 @@ color: #000000;
 }
 .icon li a .fab, .far,.fas,{
   font-size: 50px;
+}
+.icon a {
+  color: #000000;
+  text-align: left;
 }
 .buscador{
   position: absolute;
@@ -133,7 +142,8 @@ color: #000000;
   justify-content: center;
   align-items: center;
      margin-left: 60px;
-     width: 70%;
+      max-width: 500px;
+      min-width: 300px;
      padding: 9px 2px;
 }
 #boton_buscar{
@@ -150,12 +160,11 @@ color: #000000;
 .button{
   background-color: #ff8000;
   padding: 9px 17px;
-  color: #ffffff;
   width: auto;
   font-family: inherit;
   font-weight:  bold;
   margin-top: 0px;
-  color: #ffffff;
+  color: #000000;
   padding: 9px 17px;
   border: solid;
   border-color: #ffffff;
@@ -201,6 +210,7 @@ color: #000000;
   margin-right: 0px;
 }
 .division1{
+
   height: 60px;
   margin-bottom: 5px;
   border-bottom: inset;
@@ -274,7 +284,7 @@ color: #000000;
 }
 .col{
   background-color: #F5CD86;
-  color: orange;
+  color: #000000;
   margin-left: 113px;
   margin-right: 115px;
   padding: 0px 10px;
@@ -293,6 +303,7 @@ color: #000000;
   background-image: url(../imagenes/laptop_promo.png);
   padding: 0px;
 }
+
 .titulo{
   display: table;
     font-family: sans-serif;
@@ -370,6 +381,11 @@ margin-left: 40px;
   margin-right: 70px;
 }
 /* footer*/
+.logo3{
+  margin-top: 20px;
+  display: inline;
+  margin-left: 40px;
+}
 footer {
 
 
@@ -387,6 +403,7 @@ footer{
 }
 
 .containers{
+  background-color: #E0FFFF;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

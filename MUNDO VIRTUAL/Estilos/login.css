@@ -4,6 +4,11 @@ body {
   font-family:  sans-serif;
   text-align: center;
 }
+.logo3{
+  margin-top: 20px;
+  display: inline;
+  margin-left: 40px;
+}
 .logo{
   align-items: center;
 }
@@ -103,6 +108,7 @@ footer{
 }
 
 .containers{
+  background-color: #E0FFFF;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

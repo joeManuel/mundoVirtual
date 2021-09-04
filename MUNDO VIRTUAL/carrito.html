@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <!-- <meta charset="utf-8"> -->
     <title>carrito</title>
-     <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">  -->
+     <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
     <link rel="shortcut icon" type="icon" class="icono" href="imagenes/mundovirtual.png">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
@@ -18,19 +19,22 @@
               <img src="imagenes/logo.jpg" alt="logo de la tienda">
           </a>
           <ul class="buscador">
-            <form class="" action="productos.html" method="post">
-              <input type="search" id="buscador" placeholder="search">
-              <input type="submit" id="boton_buscar" value="buscar">
-            </form>
+            <li>
+              <form id="form" action="productos.html" method="post">
+                <input type="search" id="buscador" placeholder="search">
+                <input type="submit" id="boton_buscar" value="buscar">
+              </form>
+            </li>
+
           </ul>
 
 
           <ul class="icon">
             <li>
-              <a href="login.html">
-                  <i class="fas fa-user"></i></a></li>
+              <a href="usuario.html"> perfil
+                  <i class="fas fa-user"> </i></a></li>
             <li>
-              <a href="carrito.html" >
+              <a href="carrito.html" >carrito
                   <i class="fas fa-shopping-cart"></i>
               </a></li>
           </ul>
@@ -56,8 +60,8 @@
             </li>
           </ul>
           <ul class="navbar">
-            <li><a class="link" href="#">HOME</a></li>
-            <li><a class="link" href="#promo">OFERTAS</a></li>
+            <li><a class="link" href="index_usuario.html">HOME</a></li>
+            <li><a class="link" href="productos.html#promo">OFERTAS</a></li>
             <li><a class="link" href="productos.html">PRODUCTOS</a></li>
             <li><a class="link" href="#pie">CONTACTANOS</a></li>
           </ul>
@@ -84,28 +88,34 @@
               <tr>
               <td>producto1</td>
               <td aling="right">14.5</td>
-              <td><input id="number" type="number" value="1"
-                min="1" max="100"></td>
+              <td> <label for="number1">
+                <input id="number1" type="number" value="1"
+                min="1" max="100"> </label></td>
               <td>2</td>
-              <td><button type="button" id="button"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
+              <td><a class="btn btn-danger" href="#" aria-label="Delete">
+                  <i class="fa fa-trash" aria-hidden="true"></i></a></td>
 
               </tr>
               <tr>
               <td>producto1</td>
               <td aling="right">14.5</td>
-              <td><input id="number" type="number" value="1"
-                min="1" max="100"></td>
+              <td><label for="number2"> <input id="number2" type="number" value="1"
+              min="1" max="100"> </label>
+                </td>
               <td>2</td>
-              <td> <button type="button" id="button"><i class="fa fa-trash" aria-hidden="true"></i></button> </td>
+              <td> <a class="btn btn-danger" href="#" aria-label="Delete">
+                  <i class="fa fa-trash" aria-hidden="true"></i></a> </td>
 
               </tr>
               <tr>
               <td>producto1</td>
               <td aling="right">14.5</td>
-              <td><input id="number" type="number" value="1"
-                min="1" max="100"></td>
+              <td><label for="number3"><input id="number3" type="number" value="1"
+              min="1" max="100"></label>
+                </td>
               <td>2</td>
-              <td><button type="button" id="button"><i class="fa fa-trash" aria-hidden="true"></i></button></td>
+              <td><a class="btn btn-danger" href="#" aria-label="Delete">
+                  <i class="fa fa-trash" aria-hidden="true"></i></a></td>
 
               </tr>
             </tbody>
@@ -118,7 +128,7 @@
     <footer id="pie">
 
         <div class="containers-pro">
-            <div class="logo">
+            <div class="logo3">
               <a href="index_usuario.html" >
                   <img src="imagenes/logo2.png" alt="logo de la tienda">
               </a>
@@ -165,6 +175,7 @@
             </div>
         </div>
     </footer>
+    <script src="script/index.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
   </body>

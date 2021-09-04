@@ -5,6 +5,11 @@ h5{
   font-weight:  normal;
   margin: 10px 0px;
 }
+.logo3{
+  margin-top: 20px;
+  display: inline;
+  margin-left: 40px;
+}
 .color{
   color: #FF0000;
 }
@@ -41,6 +46,7 @@ h5{
 
 }
 .containers-pro{
+  background-color: #E0FFFF;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -51,31 +57,44 @@ h5{
     margin-top: 80px;
 }
 /* carrito*/
+.btn-danger{
+  background-color: #CB3234;
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  border-radius: 10%;
+}
 .table{
-margin-left: 100px;
+  margin: auto;
+  width: 700px;
+/* margin-left: 100px; */
 text-align: center;
 }
 .table th{
+  background-color:
   padding: 0px 20px;
   width: 100px;
 }
 .table td, th{
   border-bottom: inset;
 }
+tr:nth-child(even) { background: #78866B }
+tr:nth-child(odd) { background: #ddd}
 .table .fa{
-  color: #FFFFFF;
+  color: #000000;
 }
 .li{
+  margin-top: 70px;
+  text-align: center;
   margin-bottom: 20px;
   display: block;
-  margin-left:150px;
+  /* margin-left:150px; */
 }
 input[type="number"] {
     margin: .4rem 0;
     width: 40px;
 }
 #button{
-  background-color: #FF0000;
+  background-color: transparent;
   border: 0px;
   cursor: pointer;
 }

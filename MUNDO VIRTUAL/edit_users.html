@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="es" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <meta name="description" content="Author: grupo#3">
     <title>usuario</title>
      <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">  -->
     <link rel="shortcut icon" type="icon" class="icono" href="imagenes/mundovirtual.png">
@@ -18,19 +19,22 @@
               <img src="imagenes/logo.jpg" alt="logo de la tienda">
           </a>
           <ul class="buscador">
-            <form class="" action="productos.html" method="post">
-              <input type="search" id="buscador" placeholder="search">
-              <input type="submit" id="boton_buscar" value="buscar">
-            </form>
+            <li>
+              <form id="form" action="productos.html" method="post">
+                <input type="search" id="buscador" placeholder="search">
+                <input type="submit" id="boton_buscar" value="buscar">
+              </form>
+            </li>
+
           </ul>
 
 
           <ul class="icon">
             <li>
-              <a href="login.html">
+              <a href="usuario.html"> perfil
                   <i class="fas fa-user"></i></a></li>
             <li>
-              <a href="carrito.html" >
+              <a href="carrito.html" >carrito
                   <i class="fas fa-shopping-cart"></i>
               </a></li>
           </ul>
@@ -73,29 +77,31 @@
         <div class="containers-pro">
           <div class="">
             <img src="imagenes/usuario_rdm.jpg" alt="usuario activo">
+            <h3>usuario_rdm</h3>
           </div>
           <div class="">
             <form class="form" action="usuario.html">
-            <label >Nombre</label><input class="form-input"type="text" arialabel="nombre" id="name" />
+            <label for="name" >Nombre</label><input class="form-input"type="text" arialabel="nombre" id="name" />
             <span id="name-error" aria-live="assertive"></span>
             <br />
-            <label>Nombre de usuario</label><input class="form-input" type="text" arialabel="correo" /> <br />
+            <label for="usuario">Nombre de usuario</label>
+            <input id="usuario" class="form-input" type="text" arialabel="usuario" /> <br />
             <div class="spc">
               <div class="">
-                <label >edad</label><input class="form-label"type="text" arialabel="correo" />
+                <label for="edad">edad</label><input id="edad"class="form-label"type="text" arialabel="edad" />
               </div>
               <div class="">
-                <label >genero</label><select class="form-label" name="">
+                <label id="select">genero</label><select id="select" class="form-label" name="">
                   <option value="femenino">masculino</option>
                   <option value="masculino">femenino</option>
                 </select>
               </div>
               <div class="">
-                <label >fecha nacimiento<input class="form-label1"type="date" arialabel="correo" /></label>
+                <label for="fecha">fecha nacimiento<input id="fecha"class="form-label1"type="date" arialabel="correo" /></label>
               </div>
             </div><br>
-            <label >Correo</label><input class="form-input" type="text" arialabel="correo" /> <br />
-            <label >Contraseña</label><input class="form-input"type="password" /> <br/>
+            <label for="correo">Correo</label><input id="correo" class="form-input" type="text" arialabel="correo" /> <br />
+            <label for="password">Contraseña</label><input id="password"class="form-input"type="password" /> <br/>
             <input type="submit"  value="editar" class="submit">
             </form>
 
@@ -107,7 +113,7 @@
     <footer id="pie">
 
         <div class="containers margen">
-            <div class="logo">
+            <div class="logo3">
               <a href="index_usuario.html" >
                   <img src="imagenes/logo2.png" alt="logo de la tienda">
               </a>
@@ -154,6 +160,7 @@
             </div>
         </div>
     </footer>
+    <script src="script/index.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
   </body>

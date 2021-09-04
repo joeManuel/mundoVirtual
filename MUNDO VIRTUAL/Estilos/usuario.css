@@ -4,6 +4,14 @@ body {
 .margen{
   margin-top: 60px;
 }
+.logo3{
+  margin-top: 20px;
+  display: inline;
+  margin-left: 40px;
+}
+.back{
+  background-color: #E0FFFF;
+}
 .containers-pro{
   display: flex;
   justify-content: space-around;
