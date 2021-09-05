@@ -9,6 +9,7 @@ const buscador = document.getElementById('buscador');
 
 formulario.addEventListener('submit', e => {
 	const buscadorValue = buscador.value.trim();
+	e.preventDefault();
 	if (buscadorValue==='') {
     e.preventDefault();
 		// checkInputs(e);

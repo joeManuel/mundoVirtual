@@ -76,9 +76,12 @@ color: #000000;
   display: none;
 
 }
+.ho{
+  color: #000000;
+}
 .menu .desple li:hover, a:hover{
   background: #B5B2B2;
-  color: #ffffff;
+  color: #000000;
 }
 .menu .desple li{
   display:block;
